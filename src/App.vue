@@ -1,13 +1,15 @@
 <template>
   <div class="container">
     <Youtube />
+    <imag />
   </div>
 </template>
 
 <script>
+import Imag from "./components/imag.vue";
 import Youtube from "./components/Youtube.vue";
 export default {
-  components: { Youtube },
+  components: { Youtube, Imag },
 };
 </script>
 
