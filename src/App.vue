@@ -2,7 +2,7 @@
   <div class="container">
     <Youtube />
     <imag />
-    <test-2 />
+    <Test2 />
   </div>
 </template>
 
