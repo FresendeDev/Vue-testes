@@ -4,7 +4,7 @@
     <imag src="./src/assets/ondas.svg" />
 
     <Test2 />
-    <imag src="./src/assets/casa.jpeg" />
+    <imag src="./src/assets/casa.jpeg" height="100%" width="100%" />
   </div>
 </template>
 

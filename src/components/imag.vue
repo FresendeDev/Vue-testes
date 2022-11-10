@@ -2,7 +2,7 @@
   <img :src="src" />
 </template>
 
-<script>
+<!-- <script>
 const altu = "500px";
 
 export default {
@@ -11,11 +11,25 @@ export default {
     src: String,
   },
 };
+</script> -->
+
+<script setup>
+// const altu = "300px";
+defineProps({
+  height: {
+    type: String,
+    default: "100px",
+  },
+  width: {
+    type: String,
+    default: "200px",
+  },
+});
 </script>
 
-<style scoped>
+<style>
 img {
-  height: 100px;
-  width: 100px;
+  height: v-bind(height);
+  width: v-bind(width);
 }
 </style>
