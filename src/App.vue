@@ -2,9 +2,9 @@
   <div class="container">
     <Youtube />
     <imag src="./src/assets/ondas.svg" height="50px" />
-
     <Test2 />
     <imag src="./src/assets/casa.jpeg" height="300px" width="auto" />
+    <!-- <imag src="../public/casa.jpeg" height="300px" width="auto" /> -->
   </div>
 </template>
 
