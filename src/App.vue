@@ -1,8 +1,10 @@
 <template>
   <div class="container">
     <Youtube />
-    <imag />
+    <imag src="./src/assets/ondas.svg" />
+
     <Test2 />
+    <imag src="./src/assets/casa.jpeg" />
   </div>
 </template>
 
