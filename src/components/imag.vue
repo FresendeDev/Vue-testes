@@ -2,30 +2,38 @@
   <img :src="src" />
 </template>
 
-<!-- <script>
-const altu = "500px";
+<script>
+// const altu = "500px";
 
 export default {
   name: "imag",
   props: {
     src: String,
+    height: {
+      type: String,
+      default: "auto",
+    },
+    width: {
+      type: String,
+      default: "auto",
+    },
   },
 };
-</script> -->
+</script>
 
-<script setup>
+<!-- <script setup>
 // const altu = "300px";
 defineProps({
   height: {
     type: String,
-    default: "100px",
+    default: "auto",
   },
   width: {
     type: String,
-    default: "200px",
+    default: "auto",
   },
 });
-</script>
+</script> -->
 
 <style>
 img {
